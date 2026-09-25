@@ -1,0 +1,17 @@
+level=file_and_frame
+file_agg=q
+file_q=0.95
+method=percentile
+thr_percentile=0.97
+thr_domain=log1p
+thr_safety_q=0.95
+threshold_file=0.004441110356664798
+threshold_file_quant=0.013080527260899543
+threshold_frame=0.0043232428096231824
+crop_mode=last
+healthy_validation_source=all_healthy_train_pairs
+healthy_validation_file_far=0.03
+healthy_validation_frame_far=0.03
+frame_labels=weak_labels_inherited_from_file_labels
+info_file={'status': 'ok', 'domain': 'log1p', 'thr_percentile': 0.97, 'thr_x': 0.00443127772717789, 'thr': 0.004441110356664798}
+info_frame={'status': 'ok', 'domain': 'log1p', 'thr_percentile': 0.97, 'thr_x': 0.00431392444281569, 'thr': 0.0043232428096231824}
